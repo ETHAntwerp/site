@@ -3,6 +3,7 @@ import Head from "next/head";
 import Video from "next-video";
 import localFont from "@next/font/local";
 import styles from "../styles/page.module.css";
+import backgroundVideo from "../../videos/background.mp4.json";
 import "flag-icons";
 
 const heading = localFont({ src: "../../public/fonts/against-regular.otf" });
@@ -16,16 +17,15 @@ export default function Home() {
   return (
     <Box
       className={heading.className}
-      background="black"
+      background="transparent"
       minH="100vh"
       minW="100vw"
       overflow="auto"
       position="relative"
-      zIndex={2}
     >
       <Box position="absolute" zIndex={0} w="100%" minH={"100vh"}>
         <Video
-          src={"/assets/background.mp4"}
+          src={backgroundVideo}
           autoPlay
           muted
           loop
