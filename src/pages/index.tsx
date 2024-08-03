@@ -76,7 +76,7 @@ export default function Home() {
           <Text
             color="white"
             mt="6"
-            fontSize={{ base: "3xl", md: "4xl" }}
+            fontSize={{ base: "3xl", md: "3xl", xl: "4xl" }}
             px={{ base: "10", md: 0 }}
             align="center"
           >
@@ -88,7 +88,7 @@ export default function Home() {
             color="white"
             mt="2"
             opacity={0.6}
-            fontSize={{ base: "sm", md: "md" }}
+            fontSize={{ base: "sm", md: "sm", xl: "md" }}
             px={{ base: "12", md: 0 }}
             align="center"
           >
@@ -112,6 +112,7 @@ export default function Home() {
             pb="7"
             pt="7"
             role="group"
+            fontSize="medium"
             bgGradient="linear(to-r, #FFE8DBB3 0%, #E7CEFFB3 100%)"
             rightIcon={
               <Image
