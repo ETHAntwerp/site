@@ -102,7 +102,7 @@ export default function Home() {
             _focus={{}}
             _active={{ transform: "scale(0.9)" }}
             color="white"
-            backdropBlur="8px"
+            backdropFilter={"blur(3px)"}
             boxShadow={"0px 0px 30px 2px rgb(255,255,255,0.5)"}
             mt="10"
             className={bodyBold.className}
@@ -126,7 +126,7 @@ export default function Home() {
           >
             Get the Early Supporter NFT
           </Button>
-          <Flex gap="5" mt="2">
+          <Flex gap="5" mt="3">
             <Link
               opacity={0.7}
               color="white"
