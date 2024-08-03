@@ -3,7 +3,7 @@ import Head from "next/head";
 import Video from "next-video";
 import localFont from "@next/font/local";
 import styles from "../styles/page.module.css";
-import backgroundVideo from "../../videos/background.mp4.json";
+import backgroundVideo from "../../videos/background.mp4";
 import "flag-icons";
 
 const heading = localFont({ src: "../../public/fonts/against-regular.otf" });
