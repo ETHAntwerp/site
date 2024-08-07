@@ -90,7 +90,7 @@ export default function Home() {
               px={{ base: "12", md: 0 }}
               align="center"
             >
-              Join the coolest web3 community in{" "}
+              Join Belgium{"’"}s Ethereum epicentre{" "}
               <span className="fi fi-be"></span>. No clichés, just real
               connections.
             </Text>
@@ -123,7 +123,7 @@ export default function Home() {
                 />
               }
             >
-              Get the Early Supporter NFT
+              Mint your ETHAntwerp Username
             </Button>
             <Flex gap="5" mt="3">
               <Link
