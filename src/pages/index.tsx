@@ -110,6 +110,9 @@ export default function Home() {
               pb="7"
               pt="7"
               role="group"
+              onClick={() => {
+                open("https://app.namespace.tech/ethantwerp.eth");
+              }}
               fontSize="medium"
               bgGradient="linear(to-r, #FFE8DBB3 0%, #E7CEFFB3 100%)"
               rightIcon={
