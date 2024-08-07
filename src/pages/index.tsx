@@ -127,6 +127,9 @@ export default function Home() {
             </Button>
             <Flex gap="5" mt="3">
               <Link
+                href="https://tally.so/r/n9ONPX"
+                target="_blank"
+                _hover={{ opacity: 1 }}
                 opacity={0.7}
                 color="white"
                 className={bodyMedium.className}
@@ -142,12 +145,15 @@ export default function Home() {
                 |
               </Text>
               <Link
+                href="https://tally.so/r/nPlRWP"
+                target="_blank"
+                _hover={{ opacity: 1 }}
                 opacity={0.7}
                 color="white"
                 className={bodyMedium.className}
                 textDecoration="underline"
               >
-                Volunteers
+                Contribute
               </Link>
             </Flex>
           </Flex>
