@@ -169,7 +169,13 @@ export default function Home() {
           justifyContent="center"
           alignItems="center"
         >
-          <Link color="white" className={bodyMedium.className}>
+          <Link
+            color="white"
+            className={bodyMedium.className}
+            href="https://x.com/ethantwerpen"
+            target="_blank"
+            _hover={{ transform: "translateY(-3px)" }}
+          >
             <Image
               src="/assets/twitter.svg"
               height="10"
@@ -178,7 +184,13 @@ export default function Home() {
             />
           </Link>
 
-          <Link color="white" className={bodyMedium.className}>
+          <Link
+            color="white"
+            className={bodyMedium.className}
+            href="https://t.me/Ethantwerp/2"
+            target="_blank"
+            _hover={{ transform: "translateY(-3px)" }}
+          >
             <Image
               src="/assets/telegram.svg"
               height="10"
@@ -186,7 +198,13 @@ export default function Home() {
               alt="ETHAntwerp | Telegram"
             />
           </Link>
-          <Link color="white" className={bodyMedium.className}>
+          <Link
+            color="white"
+            className={bodyMedium.className}
+            href="https://www.linkedin.com/company/ethantwerp/"
+            target="_blank"
+            _hover={{ transform: "translateY(-3px)" }}
+          >
             <Image
               src="/assets/linkedin.svg"
               height="10"
